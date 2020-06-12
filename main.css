@@ -25,6 +25,7 @@ header a {
   font-size: 17px;
   display: inline-block;
   text-decoration: none;
+  border: 1px solid black;
 }
 .login-form {
   display: flex;
@@ -33,6 +34,12 @@ header a {
   margin: auto;
 }
 .signup-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.add-item-form {
   display: flex;
   flex-direction: column;
   width: 50%;
