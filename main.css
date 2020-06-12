@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  text-align: center;
+}
+header h1 {
+  font-size: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+ol,
+ul {
+  list-style: none;
+}
