@@ -45,3 +45,9 @@ header a {
   flex-flow: column wrap;
   padding: 5px 0;
 }
+
+@media only screen and (min-width: 600px) {
+  .item-list li {
+    flex-direction: row;
+  }
+}
