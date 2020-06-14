@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add Item | NVNTORY</title>
+    <title>Edit Item | NVNTORY</title>
     <link rel="stylesheet" href="/main.css" />
   </head>
   <body>
     <header>
-      <h1>Add Item</h1>
+      <h1>Edit Item</h1>
       <nav>
         <ul>
           <li>Submit Changes</li>
@@ -18,18 +18,34 @@
     </header>
     <main>
       <section>
-        <form class="add-item-form" action="submit">
+        <form class="edit-item-form" action="submit">
           <label for="name">Item Name</label>
-          <input type="text" name="name" id="name" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="edited item name"
+          />
           <label for="description">Description</label>
-          <input type="text" name="description" id="description" />
+          <input
+            type="text"
+            name="description"
+            id="description"
+            placeholder="edited item description"
+          />
           <label for="price">Price</label>
-          <input type="number" name="price" id="price" />
+          <input
+            type="number"
+            name="price"
+            id="price"
+            placeholder="edited item price"
+          />
           <label for="current-inventory">Inventory</label>
           <input
             type="number"
             name="current-inventory"
             id="current-inventory"
+            placeholder="edited item inventory"
           />
           <button>Submit</button>
         </form>
